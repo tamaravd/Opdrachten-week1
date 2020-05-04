@@ -1,0 +1,167 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    display: inline;
+}
+table{
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+td{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(8, [col] 80px ) ;
+    grid-template-rows: repeat(1, [row] auto  );
+   
+}
+
+.carla{
+    border-radius: 10px;
+    border:solid;
+    border-width: 3px;
+    border-color:lightgrey;
+    grid-column: col / span 4;
+    grid-row: row;
+
+}
+.statusC{
+    color: lightgrey;
+    margin: 0px;
+
+}
+.statusM{
+    color: lightgrey;
+    margin: 0px;
+ 
+}
+.imgC{
+    grid-column: 4;
+    grid-row: 1;
+}
+.carla-img{
+    width: 40px;
+    float: right;
+    margin: 15px;
+}
+.imgM{
+    grid-column:8;
+    grid-row: 1;
+}
+.marijn-img{
+    width: 40px;
+    float: right;
+    margin: 15px;
+}
+.textC{
+    color: darkslategrey;
+    grid-column: 1;
+    grid-row:1;
+    border-bottom: solid whitesmoke 1px;
+
+    padding: 15px;
+
+}
+.textM{
+    color: darkslategrey;
+    grid-column: 5;
+    grid-row: 1;
+    border-bottom: solid whitesmoke 1px;
+
+    padding: 15px;
+
+}
+.marijn{
+    border-radius: 10px;
+    border:solid;
+    border-width: 3px;
+    border-color: lightgrey;
+    grid-column: col 5 / span 4;
+    grid-row: row;
+
+}
+
+.button1 {
+    background-color: white;
+    border-right: none;
+    border-left-color: springgreen;
+    border-top-color: springgreen;
+    border-bottom-color: springgreen;
+    border-radius: 5px;
+    padding: 10px 46px;
+    color: springgreen;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 18px;  
+ 
+       margin:0;
+  }
+  .button2 {
+    background-color: white;
+    border-color: red;
+    border-radius: 5px;
+    color: red;
+    padding: 10px 46px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 18px;
+
+    margin: 0 0 0 -2px;
+  }
+  .button3 {
+    background-color: white;
+    border-right: none;
+    border-left-color: springgreen;
+    border-top-color: springgreen;
+    border-bottom-color: springgreen;
+    border-radius: 5px;
+    padding: 10px 46px;
+    color: springgreen;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 18px;
+ 
+    margin:0;
+  }
+  .button4 {
+    background-color: white;
+    border-color: red;
+    border-radius: 5px;
+    color: red;
+    padding: 10px 46px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 18px;
+  
+    margin: 0 0 0 -2px;
+  }
+
+
+
+.buttonC{
+    grid-column: col / span 4;
+    grid-row:  1;
+
+    margin: 10px 15px 10px 15px;
+}
+
+
+.buttonM{
+    grid-column: col 5 / span 7;
+    grid-row:  1;
+
+    margin: 10px 15px 10px 15px;
+
+}
